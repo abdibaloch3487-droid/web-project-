@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Apex Dynamics</title>
+  <meta name="description" content="Browse our successful client case studies, digital transformations, and brand transformations.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Apex<span>Dynamics</span></a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1.25rem;">Contact Us</a>
+      </nav>
+      <button class="hamburger">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom: 3rem;">
+    <div class="container text-center" style="max-width: 800px;">
+      <span class="badge">Our Work</span>
+      <h1>Proven Results in Action</h1>
+      <p class="text-secondary">Explore selected projects where we helped businesses achieve breakthrough outcomes.</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" data-category="web">
+          <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="portfolio-content">
+            <span class="badge" style="font-size: 0.75rem; margin-bottom: 0.5rem;">Web Development</span>
+            <h3>Fintech Cloud Portal</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1rem;">Complete scalable portal architecture for high-volume banking transactions.</p>
+            <a href="contact.html" style="color: var(--secondary); font-weight: 600;">View Details &rarr;</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="branding">
+          <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1542744094-3a31243264d0?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="portfolio-content">
+            <span class="badge" style="font-size: 0.75rem; margin-bottom: 0.5rem;">Branding</span>
+            <h3>Vanguard Rebrand</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1rem;">Modern identity restructuring resulting in a 40% increase in brand recognition.</p>
+            <a href="contact.html" style="color: var(--secondary); font-weight: 600;">View Details &rarr;</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="business">
+          <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="portfolio-content">
+            <span class="badge" style="font-size: 0.75rem; margin-bottom: 0.5rem;">Business Strategy</span>
+            <h3>Enterprise Workflow Optimization</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1rem;">Streamlining logistical processes across 4 multinational regional offices.</p>
+            <a href="contact.html" style="color: var(--secondary); font-weight: 600;">View Details &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom text-center" style="border: none; justify-content: center;">
+        <p>&copy; 2026 Apex Dynamics. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Apex Dynamics</title>
+  <meta name="description" content="Get in touch with Apex Dynamics for inquiries, consultations, and enterprise project requests.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Apex<span>Dynamics</span></a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="btn btn-primary active" style="padding: 0.5rem 1.25rem;">Contact Us</a>
+      </nav>
+      <button class="hamburger">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom: 3rem;">
+    <div class="container text-center" style="max-width: 800px;">
+      <span class="badge">Get in Touch</span>
+      <h1>Let's Discuss Your Next Project</h1>
+      <p class="text-secondary">Fill out the form below and our leadership team will respond within 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container grid-2">
+      <div class="card" style="background: #FFFFFF;">
+        <form id="contactForm">
+          <div class="form-group">
+            <label class="form-label" for="fullName">Full Name</label>
+            <input type="text" id="fullName" class="form-control" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input type="email" id="email" class="form-control" required placeholder="john@company.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="service">Service Interested In</label>
+            <select id="service" class="form-control">
+              <option>Digital Strategy</option>
+              <option>Cloud Architecture</option>
+              <option>Brand Engineering</option>
+              <option>Enterprise AI</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" class="form-control" required placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+      <div>
+        <h3 style="margin-bottom: 1.5rem;">Corporate Headquarters</h3>
+        <p class="text-secondary" style="margin-bottom: 1rem;"><strong>Email:</strong> support@apexdynamics.com</p>
+        <p class="text-secondary" style="margin-bottom: 1rem;"><strong>Phone:</strong> +1 (555) 382-9011</p>
+        <p class="text-secondary" style="margin-bottom: 2rem;"><strong>Address:</strong> 100 Financial Plaza, Suite 400, New York, NY 10005</p>
+        <div style="background: var(--border-color); height: 250px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-weight: 600;">
+          [Interactive Location Map Placeholder]
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom text-center" style="border: none; justify-content: center;">
+        <p>&copy; 2026 Apex Dynamics. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
